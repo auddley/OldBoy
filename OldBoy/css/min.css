@@ -1,0 +1,131 @@
+@media (min-width: 1800px) {
+    .container {
+        max-width: 1250px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mob-none {
+        display: none;
+    }
+    .location__select {
+        width: 137px;
+    }
+    .location__select::after {
+        top: 5px;
+        right: -3px;
+    }
+    .desk-none {
+        display: block;
+    }
+    .main-block__content {
+        padding-right: 0;
+    }
+    .container {
+        padding: 0 35px 0 41px;
+    }
+    ._ibg img {
+        object-position: left;
+    }
+    .main-block__form {
+        padding-bottom: 129px;
+    }
+}
+
+@media (max-width: 675px) {
+    .main-block__content {
+        flex-wrap: wrap;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .main-block__title-first_big {
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .main-block__title-first_small {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .main-block__title-second {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .fs-61 {
+        font-size: 34px;
+        line-height: 30px;
+    }
+    .main-block__title-first::after {
+        width: 197px;
+    }
+    .main-block__title-first::before {
+        left: 69px;
+    }
+    .main-block__title-second {
+        width: 100%;
+        padding-top: 28px;
+    }
+    .mounth {
+        padding-left: 12px;
+    }
+    .main-block__title-second::after {
+        width: 7px;
+        left: 130px;
+        top: 56px;
+    }
+}
+
+@media (max-width: 625px) {
+    .number {
+        order: 4;
+        flex-basis: 100%;
+        text-align: center;
+        padding-top: 20px;
+        margin-right: 0;
+    }
+    .header-main {
+        flex-wrap: wrap;
+    }
+    .logo svg {
+        width: 86px;
+        height: 46px;
+    }
+    .number__title::after {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .main-block__form {
+        padding-bottom: 95px;
+        padding-left: 15px;
+    }
+    .header-main {
+        padding-top: 26px;
+    }
+    .location__select {
+        font-size: 8px;
+    }
+    select {
+        font-size: 16px;
+    }
+    .location__select {
+        width: 97px;
+    }
+    .location__select::after {
+        top: 3px;
+    }
+}
+
+@media (max-width: 511px) {
+    .main-block__content {
+        flex-direction: column;
+    }
+    .main-block__form {
+        padding-left: 0;
+    }
+    ._ibg img {
+        object-position: 25%;
+    }
+    .mob-menu {
+        width: 100%;
+    }
+}
